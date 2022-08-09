@@ -1,0 +1,38 @@
+{
+  "Id": "e936e406-3244-432a-a885-6ad4b92bab34",
+  "Name": "TestRepo1",
+  "GithubForkAddress": "https://github.com/tim-meiwald-bluefruit/TestRepo1.git",
+  "LocalGitPath": "repo/TestRepo1",
+  "Workflow": {
+    "Id": 1,
+    "Name": "WorkflowTemplate",
+    "WorkStates": [
+      {
+        "WorkStateId": 1,
+        "Index": 0,
+        "Name": "Done",
+        "IsTestable": false,
+        "IsDone": true,
+        "WorkflowId": 1,
+        "DefinitionOfDone": []
+      }
+    ]
+  },
+  "Sprints": [
+    {
+      "Id": 1000,
+      "Name": "Sprint 1",
+      "StartDate": "2022-08-09T08:37:59.2923331+01:00",
+      "EndDate": "2022-08-23T08:37:59.2923374+01:00",
+      "Feedback": [],
+      "Ratings": [],
+      "IsCompleted": false
+    }
+  ],
+  "UserNames": [
+    "tim.meiwald@bluefruit.co.uk"
+  ],
+  "EnforceDefinitionOfDone": false,
+  "GithubPRTargetAddress": "https://github.com/tim-meiwald-bluefruit/TestRepo1.git",
+  "FeatureFilesLocation": ""
+}
